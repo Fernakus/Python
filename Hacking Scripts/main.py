@@ -16,7 +16,9 @@ def main():
     # Variables
     penetrationLibrary = CCCPenetrationLib()
     
+    d = penetrationLibrary.encrypt("hello")
     
+    print(penetrationLibrary.decrypt(d))
 # Call main
 main()
     
