@@ -232,6 +232,7 @@ class CCCPenetrationLib:
         return 
     
     # pinger()    
+
     def pinger(self, ipToPing):
         self.connectToIP(ipToPing)
         return 
